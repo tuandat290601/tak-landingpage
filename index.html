@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Boostrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+
+    <!-- Slick -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v18.0"
+      nonce="MhVn7dBR"
+    ></script>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>TAK Beauty</title>
+  </head>
+  <body>
+    <div id="root">
+      <nav id="navbar" class="py-3 my-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-2">LOGO</div>
+            <div class="col-7">
+              <ul
+                class="nav-list d-flex justify-content-evenly align-items-center h-100"
+              >
+                <li class="nav-item fs-6 fs-md-4 fw-bold">
+                  <a href="#" class="text-decoration-none text-white"
+                    >Giới thiệu</a
+                  >
+                </li>
+                <li class="nav-item fs-6 fs-md-4 fw-bold">
+                  <a href="#" class="text-decoration-none text-white"
+                    >Dịch vụ</a
+                  >
+                </li>
+                <li class="nav-item fs-6 fs-md-4 fw-bold">
+                  <a href="#" class="text-decoration-none text-white"
+                    >Sản phẩm</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-3 d-flex justify-content-center">
+              <button
+                class="btn gradient-light-bg px-0 px-sm-2 fs-6 fs-md-4 fw-bold"
+              >
+                <a
+                  href="https://zalo.me/0789611774"
+                  target="_blank"
+                  class="text-decoration-none text-dark"
+                >
+                  Liên hệ ngay
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section id="banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-7">
+              <div
+                class="banner-left d-flex flex-column justify-content-center"
+              >
+                <h1>Tuấn Anh Kiều</h1>
+                <h1>Công Nghệ Tiêm Môi Striplip Asia</h1>
+                <div class="d-flex mt-5">
+                  <button
+                    class="btn gradient-light-bg px-4 fs-md-4 fw-bold me-3"
+                  >
+                    <a
+                      href="https://zalo.me/0789611774"
+                      target="_blank"
+                      class="text-decoration-none text-dark"
+                    >
+                      Liên hệ ngay
+                    </a>
+                  </button>
+                  <button
+                    class="btn bg-transparent px-4 fs-4 fw-bold text-white border border-2 border-white"
+                  >
+                    <a
+                      href="https://www.facebook.com/tuananh.kieu.9887"
+                      target="_blank"
+                      class="text-decoration-none text-white"
+                    >
+                      Tìm hiểu thêm
+                    </a>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col position-relative">
+              <div class="position-absolute banner-avatar">
+                <img src="./assets/tak-avatar.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="quality" class="gradient-light-down-bg py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <div class="d-flex flex-column">
+                <div class="quality-box"></div>
+                <h5>Greate Quality Service</h5>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="d-flex flex-column">
+                <div class="quality-box"></div>
+                <h5>Exquisite Treatment</h5>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="d-flex flex-column">
+                <div class="quality-box"></div>
+                <h5>100% Satisfaction Guarantee</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="story" class="py-5">
+        <div class="container">
+          <div class="row flex-column-reverse flex-md-row">
+            <div class="col-12 col-md-6 mt-3 mt-md-0">
+              <div class="story-image">
+                <img src="./assets/tak-introduce.jpg" alt="story" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <h1>Tuấn Anh Kiều</h1>
+              <h1>Công Nghệ Tiêm Môi Striplip Asia</h1>
+              <p class="my-3">
+                Tuấn Anh Kiều - tự hào là cha đẻ ngành công nghệ tiêm môi
+                Striplips Asia, dẫn đầu về uy tín, chất lượng, trách nhiệm.
+                <br />
+                Tiên phong trong việc ứng dụng các phương pháp làm đẹp mới nhất.
+                Tuấn Anh Kiều với nhiều năm kinh nghiệm trong thẩm mỹ cùng với
+                đội ngũ chuyên gia làm đẹp giỏi chuyên môn thường xuyên tham gia
+                các khoá đào tạo nâng cao chuyên sâu sẽ luôn mang đến cho Quý
+                Khách Hàng sự hài lòng.
+                <br />
+                Với Trách Nhiệm , Chất Lượng , Uy Tín sự hài lòng của Quý Khách
+                Hàng sẽ là niềm tự hào của Tuấn Anh Kiều
+              </p>
+              <button class="btn gradient-light-bg px-4 fs-md-4 fw-bold me-3">
+                <a
+                  href="https://www.facebook.com/tuananh.kieu.9887"
+                  target="_blank"
+                  class="text-decoration-none text-dark"
+                >
+                  Tìm hiểu thêm
+                </a>
+              </button>
+              <!-- <div class="story-video">
+                <img src="" alt="" />
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="service" class="gradient-light-half-bg py-5">
+        <div class="container">
+          <h1 class="text-center text-dark">
+            Dịch Vụ Tuấn Anh Kiều <br class="d-block d-md-none" />
+            Cung Cấp
+          </h1>
+          <h5 class="text-center w-75 mx-auto my-3 text-dark">
+            Chuyên cung cấp các dịch vụ thẩm mỹ làm đẹp quốc tế hàng đầu
+          </h5>
+          <div class="row justify-content-center flex-wrap d-none d-md-flex">
+            <div class="col-6 col-lg-3 mb-4">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">
+                  Tiêm môi Striplips ASIA
+                </div>
+              </a>
+            </div>
+            <div class="col-6 col-lg-3 mb-4">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">
+                  Tiêm môi truyền thống
+                </div>
+              </a>
+            </div>
+            <div class="col-6 col-lg-3 mb-4">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">
+                  Filler biến đổi khuôn mặt
+                </div>
+              </a>
+            </div>
+            <div class="col-6 col-lg-3 mb-4">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">
+                  Filler tạo hình khuôn mặt
+                </div>
+              </a>
+            </div>
+            <div class="col-6 col-lg-3 mb-4">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">
+                  Trẻ hoá căng chỉ nâng cơ
+                </div>
+              </a>
+            </div>
+            <div class="col-6 col-lg-3 mb-4">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">Trẻ hoá BAP</div>
+              </a>
+            </div>
+            <div class="col-6 col-lg-3 mb-4">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">Trẻ hoá Meso</div>
+              </a>
+            </div>
+            <div class="col-6 col-lg-3 mb-4">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">
+                  Điều trị trẻ hoá botox
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="d-block d-md-none service-slider px-2">
+            <div class="col-6 p-2">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">
+                  Tiêm môi Striplips ASIA
+                </div>
+              </a>
+            </div>
+            <div class="col-6 p-2">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">
+                  Tiêm môi truyền thống
+                </div>
+              </a>
+            </div>
+            <div class="col-6 p-2">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">
+                  Filler biến đổi khuôn mặt
+                </div>
+              </a>
+            </div>
+            <div class="col-6 p-2">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">
+                  Filler tạo hình khuôn mặt
+                </div>
+              </a>
+            </div>
+            <div class="col-6 p-2">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">
+                  Trẻ hoá căng chỉ nâng cơ
+                </div>
+              </a>
+            </div>
+            <div class="col-6 p-2">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">Trẻ hoá BAP</div>
+              </a>
+            </div>
+            <div class="col-6 p-2">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">Trẻ hoá Meso</div>
+              </a>
+            </div>
+            <div class="col-6 p-2">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="card text-dark"
+              >
+                <img
+                  src="./assets/tak-service-1.jpg"
+                  alt="service"
+                  class="w-100"
+                />
+                <div class="position-absolute card-text">
+                  Điều trị trẻ hoá botox
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="d-flex ms-3 mt-1">
+            <button class="btn gradient-light-bg px-4 fs-4 fw-bold">
+              <a
+                href="https://www.facebook.com/tuananh.kieu.9887"
+                target="_blank"
+                class="text-decoration-none text-dark"
+              >
+                Xem thêm
+              </a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="product" class="py-5">
+        <div class="container">
+          <h1 class="text-center text-white">Sản Phẩm</h1>
+          <h5 class="text-center w-75 mx-auto my-3 text-white">
+            Nơi cung cấp sản phẩm cho các bác sĩ và chuyên gia
+          </h5>
+          <div class="product-slider">
+            <div data-title="Filler">
+              <div class="filler-slider">
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-title="Botox">
+              <div class="filler-slider">
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-title="Chỉ White Medience">
+              <div class="filler-slider">
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-title="Tinh chất trẻ hóa">
+              <div class="filler-slider">
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="card p-2 text-dark">
+                    <div class="card-header">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+                        alt="service"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="text-center">Message Therapy</h4>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <button class="btn gradient-light-bg px-2 fw-bold">
+                        Book now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button
+              class="btn bg-transparent fs-4 px-4 text-white border border-white border-1"
+            >
+              Xem tất cả sản phẩm
+              <i class="bi bi-arrow-right ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="work" class="py-5">
+        <div class="container pb-5">
+          <h1 class="text-center">Trải Nghiệm Khách Hàng</h1>
+          <h5 class="text-center w-75 mx-auto my-3 text-white">
+            Hình ảnh khách hàng đã trải nghiệm các dịch vụ làm đẹp thẩm mỹ Tuấn
+            Anh Kiều
+          </h5>
+          <div class="work-slider">
+            <img
+              src="https://drive.google.com/uc?export=view&id=1gqpaPe-tn3pOV8tLrtGpyvKWvsO2hRKn"
+              alt="service"
+            />
+            <img
+              src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+              alt="service"
+            />
+            <img
+              src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+              alt="service"
+            />
+            <img
+              src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+              alt="service"
+            />
+            <img
+              src="https://t4.ftcdn.net/jpg/01/87/29/35/360_F_187293579_mPGjfd0YI3lAICz473ORPEPJ3rpFcPIE.jpg"
+              alt="service"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="py-5">
+        <div class="container px-5 pb-3">
+          <h1 class="text-center text-dark py-3">
+            Liên hệ với <br class="d-block d-md-none" />
+            Tuấn Anh Kiều
+          </h1>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <ul class="contact-list">
+                <li>
+                  <div class="contact-temp"></div>
+                  <div class="contact-info">
+                    <h5>Địa chỉ</h5>
+                    <span style="width: 100%">
+                      39 Lương Hữu Khánh, phường Phạm Ngũ Lão, Quận 1, TP.Hồ Chí
+                      Minh
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="contact-temp"></div>
+                  <div class="contact-info">
+                    <h5>Số điện thoại</h5>
+                    <p>0938339369</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="contact-temp"></div>
+                  <div class="contact-info d-flex align-items-center">
+                    <h5>Facebook</h5>
+                  </div>
+                </li>
+                <li>
+                  <div class="contact-temp"></div>
+                  <div class="contact-info d-flex align-items-center">
+                    <h5>Instagram</h5>
+                  </div>
+                </li>
+                <li>
+                  <div class="contact-temp"></div>
+                  <div class="contact-info d-flex align-items-center">
+                    <h5>Tiktok</h5>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6">
+              <form class="">
+                <div class="row g-2">
+                  <div class="form-group">
+                    <label for="firstName" class="form-label">Họ và tên</label>
+                    <input type="text" id="firstName" class="form-control" />
+                  </div>
+                </div>
+                <div class="row g-2">
+                  <div class="form-group col-6">
+                    <label for="phone" class="form-label">Số điện thoại</label>
+                    <input type="text" id="phone" class="form-control" />
+                  </div>
+                  <div class="form-group col-6">
+                    <label for="email" class="form-label">Địa chỉ Email</label>
+                    <input type="email" id="email" class="form-control" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="message" class="form-label">Ghi chú</label>
+                  <textarea
+                    type="text"
+                    id="message"
+                    class="form-control"
+                  ></textarea>
+                </div>
+                <button
+                  class="btn gradient-light-down-bg fs-4 fw-bold px-5 mt-4"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="footer" class="gradient-dark-bg py-5">
+        <div class="container">
+          <div class="row">
+            <div>
+              <img src="" alt="logo" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <h1 class="my-3 my-md-0">
+                Uncovering The <br />
+                Excellence Of Our <br />
+                Recent Spa Offerings
+              </h1>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="row">
+                <div class="col-4">
+                  <h3 class="mb-4">Hotline</h3>
+                  <p>0938339369</p>
+                </div>
+                <div class="col-4">
+                  <h3 class="mb-4">Menu</h3>
+                  <p>Home</p>
+                  <p>About</p>
+                  <p>Contact Us</p>
+                  <p>FAQ</p>
+                </div>
+                <div class="col-4">
+                  <h3 class="mb-4">Social</h3>
+                  <p>Twitter</p>
+                  <p>Instagram</p>
+                  <p>Facebook</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Boostrap 5 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Slick -->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- JS -->
+    <script src="./index.js"></script>
+  </body>
+</html>
