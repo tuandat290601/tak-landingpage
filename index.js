@@ -67,8 +67,8 @@ window.addEventListener("DOMContentLoaded", function () {
   //   Feedback slider
   $(".feedback-slider").slick({
     infinite: true,
-    prevArrow:
-      "<button type='button' class='slick-prev'><i class='bi bi-caret-left-fill'></i></button>",
+    arrows: true,
+    prevArrow: "<button type='button' class='slick-prev'>abc</button>",
     nextArrow:
       "<button type='button' class='slick-next'><i class='bi bi-caret-right-fill'></i></i></button>",
     adaptiveHeight: true,
@@ -76,10 +76,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
   $(".service-slider").slick({
     infinite: true,
-    prevArrow:
-      "<button type='button' class='slick-prev'><i class='bi bi-caret-left-fill'></i></button>",
-    nextArrow:
-      "<button type='button' class='slick-next'><i class='bi bi-caret-right-fill'></i></i></button>",
+    arrows: false,
     adaptiveHeight: true,
     slidesToShow: 2,
     slidesToScroll: 2,
