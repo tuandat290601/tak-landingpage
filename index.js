@@ -19,8 +19,8 @@ window.addEventListener("DOMContentLoaded", function () {
     nextArrow:
       "<button type='button' class='slick-next'><i class='bi bi-caret-right-fill'></i></i></button>",
     rows: 2,
-    slidesPerRow: 1,
-    slidesToShow: 4,
+    slidesPerRow: 4,
+    slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
       {

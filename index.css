@@ -274,6 +274,15 @@ button:hover {
   padding-bottom: 0 !important;
 }
 
+.filler-slider a {
+  font-weight: 600;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
 .product-dots {
   position: absolute;
   top: -4rem;
@@ -420,6 +429,19 @@ button:hover {
 #contact > .container {
   border-radius: 0.5rem;
   background: var(--gradient-light-up);
+}
+
+iframe {
+  aspect-ratio: 3/2;
+}
+
+#footer iframe {
+  width: 100% !important;
+  aspect-ratio: 1/2;
+}
+
+#footer ifram {
+  aspect-ratio: 1/1;
 }
 
 .contact-list li {
